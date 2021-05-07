@@ -1,0 +1,27 @@
+
+.note_div{
+    color:black;
+    font-size: 16px;
+}
+
+.heading_div{
+    font-size: 25px;
+  box-shadow: 5px 5px  35px yellowgreen;  
+}
+
+.copy_right_footer{
+float: none;
+position: absolute;
+color: purple;
+box-shadow: 2px 2px 20px green;
+margin-top: 480px;
+width: 100%;
+text-align: center;
+line-height: 2;
+background-color: lightgray;
+}
+
+canvas{
+border: 3px ridge red;
+margin-top: 80px;
+}
