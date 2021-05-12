@@ -35,8 +35,8 @@ if(result.length > 0 ){
   nosey = result[0].pose.nose.y; 
   console.log("nosex = "+nosex);
   console.log("nosey = "+nosey);
-  leftwristx= result[0].pose.nose.leftWrist.x;
-  rightwristx= result[0].pose.nose.rightWrist.x;
+  leftwristx= result[0].pose.leftWrist.x;
+  rightwristx= result[0].pose.rightWrist.x;
 
   difference = floor(leftwristx - rightwristx);
 }
